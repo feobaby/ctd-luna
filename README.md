@@ -1,5 +1,12 @@
 # Code the Dream
-Code the Dream - I MADE IT TO WEEK 5! Super!
+
+Code the Dream - I MADE IT TO WEEK 6! Super!
 
 # Collaborators
-tetiana
+
+Tetiana
+Archana
+
+# Description
+
+Git is hard, CTD is the best platform to learn and to grow, and to make some friends!!!
