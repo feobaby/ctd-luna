@@ -1,0 +1,16 @@
+{
+  "name": "ctd-luna",
+  "version": "1.0.0",
+  "description": "Code the Dream - I MADE IT TO WEEK 5! Super!",
+  "main": "array.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
