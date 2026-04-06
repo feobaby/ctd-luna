@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Form Page</title>
+</head>
+<body>
+  <h1>User Registration</h1>
+  <img src="images/funmi_olaidya.JPG" alt="funmi olaiya.jpg" width="200px">
+
+  <form action="/submit" method="post">
+    <!-- Personal Info -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter username" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <!-- Preferences -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="ca">Canada</option>
+      <option value="us">USA</option>
+      <option value="ng">Nigeria</option>
+       <option value="ng">Mexico</option>
+    </select>
+    <br><br>
+
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br><br>
+
+    <label>
+      <input type="checkbox" name="subscribe"> Subscribe to newsletter
+    </label>
+    <br><br>
+
+    <!-- Extra Info -->
+    <label for="message">Your message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" placeholder="Type here..."></textarea>
+    <br><br>
+
+    <!-- Buttons -->
+    <button type="submit">Register</button>
+    <button type="reset">Clear</button>
+  </form>
+</body>
+</html>

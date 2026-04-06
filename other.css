@@ -1,0 +1,38 @@
+/* Mobile-first adjustments */
+@media (max-width: 600px) {
+  .about-me, .skills {
+    width: 90%;   /* take more space on small screens */
+    margin: 15px auto;
+    padding: 15px;
+  }
+
+  .header .title {
+    font-size: 1.5rem; /* shrink title slightly */
+  }
+
+  .header .subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Tablet (601px–1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .about-me, .skills {
+    width: 70%; /* a bit narrower but not too small */
+  }
+
+  .header .title {
+    font-size: 2rem;
+  }
+}
+
+/* Desktop (≥1025px) */
+@media (min-width: 1025px) {
+  .about-me, .skills {
+    width: 50%; /* your original design */
+  }
+
+  .header .title {
+    font-size: 2.5rem;
+  }
+}
